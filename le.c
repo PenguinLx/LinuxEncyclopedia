@@ -14,7 +14,7 @@
 //DONE:trocar goto por do while(evitar usar goto,já que não é uma boa prática)
 //DONE:descobrir como escrever o texto de uma função inteira dentro de um arquivo
 //DONE:chamar as funções por argumentos,exemplo:(pacotes) para ver os pacotes
-//TODO:implementar um comando para baixar o texto de uma função(printfs) e colocar em um arquivo .txt
+//DONE:implementar um comando para baixar o texto de uma função(printfs) e colocar em um arquivo .txt
 //TODO:deixar a documentação mais completa 
 //TODO:começar a implementar pointers para otimizar o programa e não usar tanta memória ao executar
 
@@ -22,8 +22,8 @@
 void dwFile(){
 //tentando escrever a função dentro do arquivo
 //a função está escrevendo certinho do jeito que precisa,só tenho que ver como fazer com argumentos agora (:
-//TODO:talvez implementar um if para ver qual é a opção que o usuário escolheu tipo(pkg) para depois baixar a função escolhida
-//TODO:ou colocar separado em cada um deles um if perguntando se quer ou não baixar o arquivo que dai executa o código de arquivo especifico para cada uma das funções lá dentro
+//DONE:talvez implementar um if para ver qual é a opção que o usuário escolheu tipo(pkg) para depois baixar a função escolhida
+//ALMOST DONE:ou colocar separado em cada um deles um if perguntando se quer ou não baixar o arquivo que dai executa o código de arquivo especifico para cada uma das funções lá dentro
     FILE *fileptr;
     //fileptr = fopen("texto.txt","w"); <-linha não mais neccessária
   //fileptr = freopen("G_diretorios.txt","w",stdout);
@@ -88,6 +88,8 @@ printf("Este é o Linux Encyclopedia(LE)\n\n");
 // default:
 //     break;
 // }
+//Talvez colocar um for aqui no lugar desse if que daí n precisa buscar posições específicas
+
   if (argc >= 2) {
     if (strcmp(argv[1], "--pacotes") == 0 || strcmp(argv[1], "-p") == 0) {
         pkgPT();

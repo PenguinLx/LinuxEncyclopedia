@@ -10,6 +10,8 @@ char GdirPT();
 
 char LinuxPT();
 
+char DicasLxPT();
+
 char helpPT();
 
 

@@ -15,5 +15,7 @@ Uso:  Help
 
     Informações sobre Linux: --linux ou -lx
 
+    Dicas de Linux: --dicaslx ou -dx
+
     Mostrar essa tela de ajuda: --help ou -h
 

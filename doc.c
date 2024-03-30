@@ -82,6 +82,8 @@ char helpPT(){
 
     printf("Informações sobre Linux: --linux ou -lx\n\n");
 
+    printf("Dicas de Linux: --dicaslx ou -dx");
+
     printf("Mostrar essa tela de ajuda: --help ou -h");
 
     

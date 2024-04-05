@@ -86,5 +86,4 @@ char helpPT(){
 
     printf("Mostrar essa tela de ajuda: --help ou -h");
 
-    
 }

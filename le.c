@@ -58,6 +58,8 @@ int main(int argc, char const *argv[])
       printf("ta rodando no microondas?");
         #endif
 
+
+
     sleep(0.5);
     //printf("Pasta \'Textos' criada com sucesso!\n");
 printf("\n\nBem Vindo\n");
@@ -70,7 +72,6 @@ FILE *fptr;
    char *e = &escolha;
 
    while(e != "exit"){
-
    }
      for (int i = 1; i < argc; i++){
       //TODO:trocar para um switch case
